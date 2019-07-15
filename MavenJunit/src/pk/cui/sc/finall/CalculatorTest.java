@@ -26,4 +26,14 @@ public class CalculatorTest {
 		int result=c.square(4);
 		assertEquals(16,result);
 	}
+	@Test
+	void cube() 
+	{
+		Calculator c=new Calculator();
+		int result=c.cube(2);
+		assertEquals(8,result);
+
+		
+	}
+	
 }

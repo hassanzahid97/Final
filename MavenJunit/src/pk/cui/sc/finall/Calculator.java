@@ -19,4 +19,13 @@ throw new IllegalArgumentException();
 return result;
 }
 
+public int cube(int num) throws IllegalArgumentException {
+int result = 0;
+if (num > 0 && num < 10) {
+result = num * num * num;
+} else
+throw new IllegalArgumentException();
+return result;
+}
+
 }
